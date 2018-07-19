@@ -1,0 +1,3 @@
+<%= @article.name %>
+<%= link_to "delete", admin_article_path(params[:id]), method: :delete %>
+<%= link_to "edit", edit_admin_article_path(params[:id]) %>
